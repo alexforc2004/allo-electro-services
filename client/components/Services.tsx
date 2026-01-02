@@ -16,7 +16,7 @@ export default function Services() {
       description: "Réparation professionnelle de frigo et congélateur toutes marques à Rabat",
       fullDescription: "Votre réfrigérateur ne refroidit plus ? Fuite d'eau ? Bruit anormal ? Nous diagnostiquons et réparons tous les problèmes de frigo rapidement. Réparation frigo LG, Samsung, Bosch, Whirlpool, Electrolux à domicile.",
       keywords: ["Réfrigérateur", "Frigo", "Congélateur", "Frigo qui ne refroidit pas", "Réparation frigo Rabat", "Dépannage réfrigérateur"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F55c8e0a754394b6285771ffb1fe5a1ef?format=webp&width=600",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Fface79a3a89f43baaa3e0118fc39bda3?format=webp&width=800",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function Services() {
       description: "Dépannage express lave-linge et lave-vaisselle à domicile",
       fullDescription: "Machine à laver qui fuit ? Ne tourne plus ? Lave-vaisselle ne lave pas correctement ? Intervention rapide pour vos appareils. Réparation lave-linge Samsung, LG, Bosch, Whirlpool, Electrolux.",
       keywords: ["Machine à laver", "Lave-linge", "Lave-vaisselle", "Réparation machine à laver", "Dépannage lave-linge Rabat", "Machine à laver qui fuit"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F638a1f2c7f7b43b296c327bd40847db6?format=webp&width=600",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F47794b2be3704e99bc3b1c524a687791?format=webp&width=800",
     },
     {
       id: 3,
@@ -39,11 +39,11 @@ export default function Services() {
     {
       id: 4,
       icon: UtensilsCrossed,
-      title: "Réparation Four Électrique & Micro-ondes",
-      description: "Réparation professionnel de four, cuisinière et micro-ondes",
-      fullDescription: "Four ne chauffe pas ? Micro-ondes en panne ? Cuisinière défectueuse ? Diagnostic gratuit et réparation express. Réparation four électrique, cuisinière, micro-ondes Rabat.",
-      keywords: ["Four électrique", "Micro-ondes", "Cuisinière", "Réparation four", "Four qui ne chauffe pas", "Micro-ondes en panne"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F2913d047f5904ce0bf7dce34e8065762?format=webp&width=600",
+      title: "Réparation Four Électrique",
+      description: "Réparation professionnel de four et cuisinière",
+      fullDescription: "Four ne chauffe pas ? Cuisinière défectueuse ? Diagnostic gratuit et réparation express. Réparation four électrique, cuisinière Rabat.",
+      keywords: ["Four électrique", "Cuisinière", "Réparation four", "Four qui ne chauffe pas", "Dépannage four Rabat"],
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F28f9e43669da41a79cf5df5f5caee06f?format=webp&width=800",
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export default function Services() {
       description: "Diagnostic rapide et précis de vos appareils électroménagers",
       fullDescription: "Diagnostic gratuit et détaillé de votre électroménager. Identification des pannes, devis transparent. Réparation ou remplacement de pièces avec garantie.",
       keywords: ["Diagnostic électronique", "Test électroménager", "Dépannage professionnel", "Diagnostic gratuit"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F0196fef65ec4453f8734a01801b855e5?format=webp&width=600",
+      image: "https://i.pinimg.com/1200x/22/93/8c/22938cd5c6f8557cf3b2cd64d8156e68.jpg",
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ export default function Services() {
       description: "Entretien régulier et maintenance pour prolonger la durée de vie",
       fullDescription: "Maintenance préventive de vos appareils électroménagers. Entretien régulier, nettoyage, vérification des pièces. Évitez les pannes coûteuses.",
       keywords: ["Maintenance préventive", "Entretien électroménager", "Nettoyage machine", "Prolonger durée de vie"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F3947c233855a41179b02ee2b258a9993?format=webp&width=800",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F04c29c2146a14908b1bbf5583f674780?format=webp&width=800",
     },
   ];
 
@@ -75,14 +75,14 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-white dark:bg-slate-950">
+    <section id="services" className="py-16 md:py-24 bg-gradient-to-br from-blue-500 to-yellow-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main heading with SEO */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Services de Réparation Électroménager à Rabat
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-white max-w-2xl mx-auto">
             Réparation professionnelle et rapide de tous vos appareils
             électroménagers français et internationaux. Intervention à domicile
             garantie avec pièces de qualité et technicien expérimenté à Rabat,
@@ -112,23 +112,23 @@ export default function Services() {
 
                 {/* Content - Always second in DOM for mobile, positioned via order on lg */}
                 <div className={`${imagePosition === "left" ? "lg:order-2" : "lg:order-1"}`}>
-                  <div className="mb-3 inline-block p-2 sm:p-3 bg-green-100 dark:bg-green-900/30 rounded-lg">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-green-600 dark:text-green-400" />
+                  <div className="mb-3 inline-block p-2 sm:p-3 bg-white rounded-lg">
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
                   </div>
-                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-slate-900 dark:text-white mb-2 sm:mb-3">
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-2 sm:mb-3 font-medium">
+                  <p className="text-sm sm:text-base text-white mb-2 sm:mb-3 font-medium">
                     {service.description}
                   </p>
-                  <p className="text-sm sm:text-base text-gray-700 dark:text-gray-400 mb-4 sm:mb-5 leading-relaxed hidden sm:block">
+                  <p className="text-sm sm:text-base text-white mb-4 sm:mb-5 leading-relaxed hidden sm:block">
                     {service.fullDescription}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
                     {service.keywords.map((keyword) => (
                       <span
                         key={keyword}
-                        className="text-xs px-2.5 sm:px-3 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full font-medium"
+                        className="text-xs px-2.5 sm:px-3 py-1 bg-white text-blue-600 rounded-full font-medium"
                       >
                         {keyword}
                       </span>
@@ -136,7 +136,7 @@ export default function Services() {
                   </div>
                   <a
                     href="#contact"
-                    className="inline-block px-5 sm:px-6 py-2 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition transform hover:scale-105 text-sm sm:text-base"
+                    className="inline-block px-5 sm:px-6 py-2 bg-white hover:bg-gray-100 text-blue-600 font-semibold rounded-lg transition transform hover:scale-105 text-sm sm:text-base"
                   >
                     Demander une intervention
                   </a>
@@ -147,12 +147,12 @@ export default function Services() {
         </div>
 
         {/* Detailed SEO Content */}
-        <div className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 rounded-lg p-8 md:p-12 mb-16">
-          <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
+        <div className="bg-white rounded-lg p-8 md:p-12 mb-16">
+          <h3 className="text-2xl font-bold text-slate-900 mb-6">
             Réparation Électroménager à Rabat – Service Professionnel & Garantie
           </h3>
 
-          <div className="space-y-4 text-gray-700 dark:text-gray-300">
+          <div className="space-y-4 text-gray-700">
             <p>
               Bienvenue chez <strong>Allo Mustapha</strong>, votre <strong>technicien
               réparateur d'électroménager</strong> de confiance à Rabat. Avec plus de 20
@@ -194,7 +194,7 @@ export default function Services() {
 
         {/* Advantages Section */}
         <div className="mb-16">
-          <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 text-center">
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">
             Nos Avantages
           </h3>
 
@@ -202,9 +202,9 @@ export default function Services() {
             {advantages.map((advantage, index) => (
               <div key={index} className="flex items-center gap-4">
                 <div className="flex-shrink-0">
-                  <CheckCircle2 className="w-6 h-6 text-green-500" />
+                  <CheckCircle2 className="w-6 h-6 text-white" />
                 </div>
-                <p className="text-gray-700 dark:text-gray-300 font-medium">
+                <p className="text-white font-medium">
                   {advantage}
                 </p>
               </div>
@@ -213,8 +213,8 @@ export default function Services() {
         </div>
 
         {/* Process Section */}
-        <div className="bg-blue-50 dark:bg-slate-900/50 rounded-lg p-8">
-          <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-8 text-center">
+        <div className="bg-white/20 backdrop-blur-sm rounded-lg p-8">
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">
             Notre Processus
           </h3>
 
@@ -230,13 +230,13 @@ export default function Services() {
               { step: 4, title: "Garantie", desc: "Suivi et garantie" },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
+                <div className="w-12 h-12 bg-white text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                   {item.step}
                 </div>
-                <h4 className="font-bold text-slate-900 dark:text-white mb-2">
+                <h4 className="font-bold text-white mb-2">
                   {item.title}
                 </h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-white">
                   {item.desc}
                 </p>
               </div>
