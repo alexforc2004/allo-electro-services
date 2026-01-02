@@ -40,7 +40,7 @@ export default function Footer() {
                 <Wrench className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-bold text-white">Allo Mustapha</h3>
+                <h3 className="font-bold text-white">Allo Electro Services</h3>
                 <p className="text-xs text-gray-400">
                   Réparation Électroménager
                 </p>
@@ -148,7 +148,7 @@ export default function Footer() {
           {/* Bottom */}
           <div className="border-t border-slate-700 pt-8 text-center">
             <p className="text-sm text-gray-400">
-              © {currentYear} Allo Mustapha – Réparation Électroménager. Tous
+              © {currentYear} Allo Electro Services – Réparation Électroménager. Tous
               droits réservés.
             </p>
             <p className="text-xs text-gray-500 mt-2">
