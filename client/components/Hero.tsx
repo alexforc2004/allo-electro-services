@@ -6,7 +6,10 @@ export default function Hero() {
   const [showTitle, setShowTitle] = useState(true);
 
   const slides = [
- 
+    {
+      id: 1,
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F61cd64f8a34340d0a7176fa61d6f35b5?format=webp&width=800",
+    },
     {
       id: 2,
       image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F61cd64f8a34340d0a7176fa61d6f35b5?format=webp&width=800",
