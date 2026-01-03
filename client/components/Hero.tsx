@@ -71,9 +71,6 @@ export default function Hero() {
           >
             Allo Electro Services
           </h1>
-        <p>
-          fdkjfdjfd
-        </p>
           <p
             className={`text-lg sm:text-xl text-gray-100 mb-8 font-medium transition-all duration-700 transform ${
               showTitle
