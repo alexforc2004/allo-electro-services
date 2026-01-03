@@ -36,7 +36,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-orange-500 rounded-lg flex items-center justify-center">
                 <Wrench className="w-6 h-6" />
               </div>
               <div>
@@ -59,7 +59,7 @@ export default function Footer() {
           {/* Contact Information */}
           <div>
             <h4 className="font-bold text-white mb-4 flex items-center gap-2">
-              <Phone className="w-5 h-5 text-green-400" />
+              <Phone className="w-5 h-5 text-orange-400" />
               Contact
             </h4>
             <div className="space-y-3">
@@ -84,7 +84,7 @@ export default function Footer() {
                   Horaires
                 </p>
                 <div className="flex items-center gap-2">
-                  <Clock className="w-4 h-4 text-green-400" />
+                  <Clock className="w-4 h-4 text-orange-400" />
                   <p className="text-sm text-gray-300">Disponible 7j/7</p>
                 </div>
               </div>
@@ -94,13 +94,13 @@ export default function Footer() {
           {/* Zones */}
           <div>
             <h4 className="font-bold text-white mb-4 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-green-400" />
+              <MapPin className="w-5 h-5 text-orange-400" />
               Zones d'intervention
             </h4>
             <ul className="space-y-2">
               {interventionZones.map((zone) => (
                 <li key={zone}>
-                  <p className="text-sm text-gray-300 hover:text-green-400 transition">
+                  <p className="text-sm text-gray-300 hover:text-orange-400 transition">
                     {zone}
                   </p>
                 </li>
