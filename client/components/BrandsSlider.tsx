@@ -3,32 +3,32 @@ import { useState, useEffect } from "react";
 export default function BrandsSlider() {
   const brands = [
     {
-      name: "Ariston",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F9be32b18acb444479043cb86a02ea8f0?format=webp&width=200",
+      name: "LG",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F75bbc5b90fdc488598fbaee5be2cdedf?format=webp&width=200",
     },
-    {
-      name: "Bosch",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Ff43a62644c9041d388470bd2dc41555d?format=webp&width=200",
+   {
+      name: "Samsung",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Fd62cf6969cd24b12b064e5bc4811fbe5?format=webp&width=200",
     },
-    {
-      name: "Electrolux",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Faa8d9d619f1246a88c3430cb8a9fe135?format=webp&width=200",
+     {
+      name: "Whirlpool",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F82af275d542244308e58773757c4fd00?format=webp&width=200",
     },
     {
       name: "Franke",
       logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F65143e9e0faf4de09071551d1244fc04?format=webp&width=200",
     },
     {
-      name: "LG",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F75bbc5b90fdc488598fbaee5be2cdedf?format=webp&width=200",
+      name: "Ariston",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F9be32b18acb444479043cb86a02ea8f0?format=webp&width=200",
     },
-    {
-      name: "Samsung",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Fd62cf6969cd24b12b064e5bc4811fbe5?format=webp&width=200",
+     {
+      name: "Bosch",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Ff43a62644c9041d388470bd2dc41555d?format=webp&width=200",
     },
-    {
-      name: "Whirlpool",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F82af275d542244308e58773757c4fd00?format=webp&width=200",
+   {
+      name: "Electrolux",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Faa8d9d619f1246a88c3430cb8a9fe135?format=webp&width=200",
     },
     {
       name: "Beko",
