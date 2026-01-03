@@ -132,15 +132,15 @@ export default function Footer() {
           {/* Trust Badges */}
           <div className="grid grid-cols-3 gap-4 mb-8">
             <div className="text-center">
-              <p className="text-2xl font-bold text-green-400">20+</p>
+              <p className="text-2xl font-bold text-orange-400">20+</p>
               <p className="text-xs text-gray-400">Ans d'expérience</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold text-green-400">7/7</p>
+              <p className="text-2xl font-bold text-orange-400">7/7</p>
               <p className="text-xs text-gray-400">Disponibilité</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold text-green-400">100%</p>
+              <p className="text-2xl font-bold text-orange-400">100%</p>
               <p className="text-xs text-gray-400">Marques acceptées</p>
             </div>
           </div>
