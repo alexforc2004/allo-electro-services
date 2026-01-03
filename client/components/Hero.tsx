@@ -74,7 +74,7 @@ export default function Hero() {
 
           {/* ✅ العنوان الثانوي */}
           <p
-            className={`text-lg sm:text-xl text-white-300 font-semibold mb-6 transition-all duration-700 transform ${
+            className={`text-lg sm:text-xl text-white font-semibold mb-6 transition-all duration-700 transform ${
               showTitle
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-6"
