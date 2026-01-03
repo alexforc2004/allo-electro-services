@@ -185,7 +185,7 @@ keywords: [
 
             <p>
               Basé à <strong>Rabat</strong>, nous couvrons les <strong>zones d'intervention</strong> suivantes :
-              <strong>Rabat, sale, Menzah, bouznika, ain atiq, skhirat, Temara, Agdal, Hay Riad, Yacoub El Mansour, Hassan, Wifaq,
+              <strong>Rabat, sale, Menzah, bouznika, ain atiq,Harhoura, skhirat, Temara, Agdal, Hay Riad, Yacoub El Mansour, Hassan, Wifaq,
               Bir Kacem, Ain Aouda, Menzeh, ONEP et régions</strong>.
               <strong>Intervention à domicile express disponible 7j/7</strong>.
             </p>
