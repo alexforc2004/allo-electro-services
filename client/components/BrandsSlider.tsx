@@ -137,7 +137,7 @@ export default function BrandsSlider() {
         }
         
         .animate-scroll {
-          animation: scroll 10s linear infinite;
+          animation: scroll 5s linear infinite;
         }
       `}</style>
     </section>
