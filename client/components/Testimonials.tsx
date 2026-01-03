@@ -102,7 +102,7 @@ export default function Testimonials() {
                       {testimonial.location}
                     </p>
                   </div>
-                  <span className="text-xs px-2 py-1 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-full">
+                  <span className="text-xs px-2 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-full">
                     {testimonial.service}
                   </span>
                 </div>
@@ -112,7 +112,7 @@ export default function Testimonials() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 mt-16 bg-gradient-to-r from-blue-600 to-green-600 rounded-lg p-8">
+        <div className="grid grid-cols-3 gap-4 mt-16 bg-gradient-to-r from-blue-600 to-orange-600 rounded-lg p-8">
           <div className="text-center text-white">
             <p className="text-3xl md:text-4xl font-bold">20+</p>
             <p className="text-sm md:text-base opacity-90">Ans d'Expérience</p>
