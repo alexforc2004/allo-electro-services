@@ -89,7 +89,7 @@ export default function InterventionZones() {
         </div>
 
         {/* SEO Content */}
-        <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-slate-900 dark:to-slate-800 rounded-lg p-8 md:p-12">
+        <div className="bg-gradient-to-br from-orange-50 to-emerald-50 dark:from-slate-900 dark:to-slate-800 rounded-lg p-8 md:p-12">
           <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
             Réparation Électroménager – Zones d'Intervention à Rabat
           </h3>
@@ -120,13 +120,13 @@ export default function InterventionZones() {
               disponibles 7 jours sur 7 pour intervenir rapidement chez vous.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-6 pt-6 border-t border-green-200 dark:border-slate-700">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-6 pt-6 border-t border-orange-200 dark:border-slate-700">
               {zones.map((zone) => (
                 <div
                   key={zone.name}
                   className="text-sm text-slate-700 dark:text-slate-300 flex items-center gap-2"
                 >
-                  <span className="w-2 h-2 bg-green-500 rounded-full" />
+                  <span className="w-2 h-2 bg-orange-500 rounded-full" />
                   {zone.name}
                 </div>
               ))}
@@ -142,7 +142,7 @@ export default function InterventionZones() {
           </p>
           <a
             href="#contact"
-            className="inline-block px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition transform hover:scale-105"
+            className="inline-block px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition transform hover:scale-105"
           >
             Demander une Intervention
           </a>
