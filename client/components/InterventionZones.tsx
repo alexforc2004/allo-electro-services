@@ -98,16 +98,15 @@ export default function InterventionZones() {
           </h3>
 
           <div className="space-y-4 text-gray-700 dark:text-gray-300">
-            <p>
-              <strong>Allo Electro Services</strong> couvre les zones suivantes :
-              <strong> Rabat</strong>, <strong> Temara</strong>,{" "}
-              <strong> Agdal</strong>, <strong> Hay Riad</strong>,{" "}
-              <strong> Yacoub El Mansour</strong>, <strong> Hassan</strong>,{" "}
-              <strong> Salé</strong>, <strong> Bir Kacem</strong>,{" "}
-              <strong> Ain Aouda</strong>, <strong> Menzeh</strong>,{" "}
-              <strong> ONEP</strong>, <strong> Harhoura</strong> et{" "}
-              <strong> Skhirat</strong>.
-            </p>
+           <p>
+  <strong>Allo Electro Services</strong> couvre les zones suivantes :{" "}
+  <strong>Rabat</strong>, <strong>Temara</strong>, <strong>Agdal</strong>,{" "}
+  <strong>Hay Riad</strong>, <strong>Yacoub El Mansour</strong>,{" "}
+  <strong>Hassan</strong>, <strong>Salé</strong>, <strong>Bir Kacem</strong>,{" "}
+  <strong>Ain Aouda</strong>, <strong>Menzeh</strong>, <strong>ONEP</strong>,{" "}
+  <strong>Harhoura</strong> et <strong>Skhirat</strong>.
+</p>
+
 
             <p>
               Nous effectuons des interventions rapides à domicile pour tous vos
