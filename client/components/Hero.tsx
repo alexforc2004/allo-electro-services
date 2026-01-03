@@ -104,7 +104,7 @@ export default function Hero() {
           >
             <a
               href="#contact"
-              className="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition transform hover:scale-105 shadow-lg"
+              className="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition transform hover:scale-105 shadow-lg"
             >
               Demander un devis
             </a>
