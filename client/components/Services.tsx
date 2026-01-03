@@ -160,7 +160,7 @@ keywords: [
 
           <div className="space-y-4 text-gray-700">
             <p>
-              Bienvenue chez <strong>Allo Mustapha</strong>, votre <strong>technicien
+              Bienvenue chez <strong>Allo eLECTRO Services</strong>, votre <strong>technicien
               réparateur d'électroménager</strong> de confiance à Rabat. Avec plus de 20
               ans d'expérience en <strong>dépannage d'appareils électroménagers</strong> français
               et internationaux, nous sommes spécialisés dans la <strong>réparation
@@ -185,7 +185,7 @@ keywords: [
 
             <p>
               Basé à <strong>Rabat</strong>, nous couvrons les <strong>zones d'intervention</strong> suivantes :
-              <strong>Rabat, Temara, Agdal, Hay Riad, Yacoub El Mansour, Hassan, Wifaq,
+              <strong>Rabat, sale, Menzah, bouznika, ain atiq, skhirat, Temara, Agdal, Hay Riad, Yacoub El Mansour, Hassan, Wifaq,
               Bir Kacem, Ain Aouda, Menzeh, ONEP et régions</strong>.
               <strong>Intervention à domicile express disponible 7j/7</strong>.
             </p>
