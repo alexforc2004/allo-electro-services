@@ -30,11 +30,17 @@ export default function Services() {
     {
       id: 3,
       icon: Wind,
-      title: "Réparation Sèche-linge",
-      description: "Service de réparation sèche-linge rapide et fiable à domicile",
-      fullDescription: "Sèche-linge qui ne sèche plus ? Problème d'électronique ? Nous réparons tous les modèles. Intervention urgente disponible 7j/7.",
-      keywords: ["Sèche-linge", "Séchage", "Réparation sèche-linge", "Électroménager de lessive", "Dépannage sèche-linge Rabat"],
-      image: "https://i.pinimg.com/736x/1f/58/af/1f58af9608219dccb415ff778bd46dcf.jpg",
+     title: "Réparation Micro-ondes",
+description: "Service de réparation micro-ondes rapide et fiable à domicile",
+fullDescription: "Micro-ondes qui ne chauffe plus ? Problème d'électronique ou de plateau ? Nous réparons tous les modèles. Intervention urgente disponible 7j/7.",
+keywords: [
+  "Micro-ondes",
+  "Four micro-ondes",
+  "Réparation micro-ondes",
+  "Électroménager de cuisine",
+  "Dépannage micro-ondes Rabat"
+],
+      image: "https://i.pinimg.com/736x/1f/42/7d/1f427d6cca9f99cef38562df75566a1d.jpg",
     },
     {
       id: 4,
