@@ -34,7 +34,7 @@ export default function Services() {
       description: "Service de réparation sèche-linge rapide et fiable à domicile",
       fullDescription: "Sèche-linge qui ne sèche plus ? Problème d'électronique ? Nous réparons tous les modèles. Intervention urgente disponible 7j/7.",
       keywords: ["Sèche-linge", "Séchage", "Réparation sèche-linge", "Électroménager de lessive", "Dépannage sèche-linge Rabat"],
-      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2F94bebc54207343fa88156ece780430b2?format=webp&width=600",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fafa8349848c54ba896d9db0371c7e441%2Fd69c8c8a9d694c94bed8c886bad74d6d?format=webp&width=800",
     },
     {
       id: 4,
