@@ -100,9 +100,10 @@ export default function InterventionZones() {
               d'intervention suivantes à Rabat et environs : <strong>Rabat</strong>,{" "}
               <strong>Temara</strong>, <strong>Agdal</strong>,{" "}
               <strong>Hay Riad</strong>, <strong>Yacoub El Mansour</strong>,{" "}
-              <strong>Hassan</strong>, <strong>Wifaq</strong>,{" "}
+              <strong>Hassan</strong>, <strong>sale</strong>,{" "}
               <strong>Bir Kacem</strong>, <strong>Ain Aouda</strong>,{" "}
-              <strong>Menzeh</strong>, <strong>ONEP</strong> et régions.
+              <strong>Menzeh</strong>, <strong>ONEP</strong>,{" "}
+              <strong>harhoura</strong>,<strong>skhirat</strong> et regions.
             </p>
 
             <p>
