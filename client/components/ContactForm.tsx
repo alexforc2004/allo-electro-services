@@ -98,9 +98,9 @@ ${formData.description}
               {/* Phone */}
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
                     <svg
-                      className="w-6 h-6 text-green-600 dark:text-green-400"
+                      className="w-6 h-6 text-orange-600 dark:text-orange-400"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -114,7 +114,7 @@ ${formData.description}
                   </h3>
                   <a
                     href="tel:+212660207390"
-                    className="text-green-600 dark:text-green-400 hover:underline"
+                    className="text-orange-600 dark:text-orange-400 hover:underline"
                   >
                     +212 660-207390
                   </a>
@@ -124,9 +124,9 @@ ${formData.description}
               {/* WhatsApp */}
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
                     <svg
-                      className="w-6 h-6 text-green-600 dark:text-green-400"
+                      className="w-6 h-6 text-orange-600 dark:text-orange-400"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -142,7 +142,7 @@ ${formData.description}
                     href="https://wa.me/212660207390"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-green-600 dark:text-green-400 hover:underline"
+                    className="text-orange-600 dark:text-orange-400 hover:underline"
                   >
                     +212 660-207390
                   </a>
@@ -280,7 +280,7 @@ ${formData.description}
 
               {/* Status Messages */}
               {submitStatus === "success" && (
-                <div className="flex items-center gap-2 p-4 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-lg">
+                <div className="flex items-center gap-2 p-4 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-lg">
                   <CheckCircle className="w-5 h-5" />
                   <p>Merci ! Nous vous recontacterons très bientôt.</p>
                 </div>
@@ -297,7 +297,7 @@ ${formData.description}
               <button
                 type="submit"
                 disabled={submitStatus === "loading"}
-                className="w-full px-6 py-3 bg-green-500 hover:bg-green-600 disabled:bg-gray-400 text-white font-semibold rounded-lg transition transform hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full px-6 py-3 bg-orange-500 hover:bg-orange-600 disabled:bg-gray-400 text-white font-semibold rounded-lg transition transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 <Send className="w-5 h-5" />
                 {submitStatus === "loading"
@@ -310,7 +310,7 @@ ${formData.description}
                 Ou contactez directement au{" "}
                 <a
                   href="tel:+212660207390"
-                  className="text-green-600 dark:text-green-400 font-semibold hover:underline"
+                  className="text-orange-600 dark:text-orange-400 font-semibold hover:underline"
                 >
                   +212 660-207390
                 </a>
