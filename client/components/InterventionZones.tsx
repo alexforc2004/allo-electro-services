@@ -58,7 +58,7 @@ export default function InterventionZones() {
             Zones d'Intervention
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Nous intervenons rapidement dans les quartiers de Rabat et régions
+            Nous intervenons rapidement dans les quartiers de Rabat et Quartiers de temara, quartiers de ain ouda, et quartiers de salé.
             pour une réparation professionnelle à domicile. Disponible 7j/7 pour
             votre dépannage électroménager.
           </p>
