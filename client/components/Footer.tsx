@@ -5,6 +5,7 @@ import {
   Clock,
   Wrench,
   Shield,
+  Youtube
 } from "lucide-react";
 
 export default function Footer() {
@@ -55,7 +56,19 @@ export default function Footer() {
               <span className="text-sm text-gray-300">Garantie sur réparation</span>
             </div>
           </div>
-
+            <div className="flex gap-3">
+              <a
+                href="https://youtube.com/@jdidjbd?si=qrfLs_ZtMKMKtx4F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-red-500 hover:text-red-400 transition"
+                aria-label="YouTube Channel"
+              >
+                <Youtube className="w-5 h-5" />
+                <span className="text-sm">Suivez-nous sur YouTube</span>
+              </a>
+            </div>
+          </div>
           {/* Contact Information */}
           <div>
             <h4 className="font-bold text-white mb-4 flex items-center gap-2">
