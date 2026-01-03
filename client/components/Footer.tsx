@@ -193,7 +193,7 @@ export default function Footer() {
               droits réservés.
             </p>
             <p className="text-xs text-gray-500 mt-2">
-              Rabat, Temara et régions • Service à domicile
+              Rabat, Temara, sale, ain ouda et régions • Service à domicile
             </p>
           </div>
         </div>
