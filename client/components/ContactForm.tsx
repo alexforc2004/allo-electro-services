@@ -221,7 +221,7 @@ ${formData.description}
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 border border-gray-300 dark:border-slate-700 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
-                  placeholder="+212 6XX-XXXXXX"
+                  placeholder="+2126XXXXXXXX"
                 />
               </div>
 
@@ -312,7 +312,7 @@ ${formData.description}
                   href="tel:+212660207390"
                   className="text-orange-600 dark:text-orange-400 font-semibold hover:underline"
                 >
-                  +212 660-207390
+                  +212660207390
                 </a>
               </p>
             </form>
