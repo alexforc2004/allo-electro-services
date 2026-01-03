@@ -55,12 +55,15 @@ export default function InterventionZones() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4 flex items-center justify-center gap-3">
             <MapPin className="w-8 h-8 text-orange-500" />
-            Zones d'Intervention
+            Zones d’Intervention
           </h2>
+
+          {/* 🔧 FIX: النص كامل فـ سطر واحد */}
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Nous intervenons rapidement dans les quartiers de Rabat et Quartiers de temara, quartiers de ain ouda, et quartiers de salé.
-            pour une réparation professionnelle à domicile. Disponible 7j/7 pour
-            votre dépannage électroménager.
+            Nous intervenons rapidement dans les quartiers de Rabat et de Temara,
+            les quartiers de Ain Aouda ainsi que les quartiers de Salé pour une
+            réparation professionnelle à domicile. Disponible 7j/7 pour votre
+            dépannage électroménager.
           </p>
         </div>
 
@@ -91,34 +94,32 @@ export default function InterventionZones() {
         {/* SEO Content */}
         <div className="bg-gradient-to-br from-orange-50 to-emerald-50 dark:from-slate-900 dark:to-slate-800 rounded-lg p-8 md:p-12">
           <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
-            Réparation Électroménager – Zones d'Intervention à Rabat
+            Réparation Électroménager – Zones d’Intervention à Rabat
           </h3>
 
           <div className="space-y-4 text-gray-700 dark:text-gray-300">
             <p>
-              <strong>Allo Electro Services</strong> couvre l'ensemble des zones
-              d'intervention suivantes à Rabat et environs : <strong>Rabat</strong>,{" "}
-              <strong>Temara</strong>, <strong>Agdal</strong>,{" "}
-              <strong>Hay Riad</strong>, <strong>Yacoub El Mansour</strong>,{" "}
-              <strong>Hassan</strong>, <strong>sale</strong>,{" "}
-              <strong>Bir Kacem</strong>, <strong>Ain Aouda</strong>,{" "}
-              <strong>Menzeh</strong>, <strong>ONEP</strong>,{" "}
-              <strong>harhoura</strong>,<strong>skhirat</strong> et regions.
+              <strong>Allo Electro Services</strong> couvre les zones suivantes :
+              <strong> Rabat</strong>, <strong> Temara</strong>,{" "}
+              <strong> Agdal</strong>, <strong> Hay Riad</strong>,{" "}
+              <strong> Yacoub El Mansour</strong>, <strong> Hassan</strong>,{" "}
+              <strong> Salé</strong>, <strong> Bir Kacem</strong>,{" "}
+              <strong> Ain Aouda</strong>, <strong> Menzeh</strong>,{" "}
+              <strong> ONEP</strong>, <strong> Harhoura</strong> et{" "}
+              <strong> Skhirat</strong>.
             </p>
 
             <p>
               Nous effectuons des interventions rapides à domicile pour tous vos
               besoins de <strong>dépannage électroménager</strong>. Notre
-              technicien réparateur expérimenté se déplace à Rabat pour vous
-              proposer un <strong>diagnostic gratuit</strong> et une réparation
-              professionnelle.
+              technicien réparateur expérimenté se déplace pour un{" "}
+              <strong>diagnostic gratuit</strong>.
             </p>
 
             <p>
-              Que vous ayez besoin d'une <strong>réparation frigo</strong>,
-              d'un dépannage <strong>machine à laver</strong> ou d'une
-              intervention sur <strong>four électrique</strong>, nous sommes
-              disponibles 7 jours sur 7 pour intervenir rapidement chez vous.
+              Réparation <strong>frigo</strong>, dépannage{" "}
+              <strong>machine à laver</strong> ou intervention sur{" "}
+              <strong>four électrique</strong>, nous sommes disponibles 7j/7.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-6 pt-6 border-t border-orange-200 dark:border-slate-700">
@@ -138,7 +139,7 @@ export default function InterventionZones() {
         {/* CTA */}
         <div className="mt-12 text-center">
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Votre zone n'est pas listée ? Contactez-nous pour vérifier la
+            Votre zone n’est pas listée ? Contactez-nous pour vérifier la
             disponibilité.
           </p>
           <a
