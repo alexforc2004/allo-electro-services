@@ -21,10 +21,10 @@ export default function Footer() {
     "Yacoub El Mansour",
     "Ain Ouda",
     "Sale",
-    "Harhoura"
-    "bouznika"
-    "skhirat"
-    "Menzah"
+    "Harhoura",
+    "bouznika",
+    "skhirat",
+    "Menzah",
   ];
 
   const brands = [
