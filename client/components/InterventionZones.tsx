@@ -54,7 +54,7 @@ export default function InterventionZones() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4 flex items-center justify-center gap-3">
-            <MapPin className="w-8 h-8 text-green-500" />
+            <MapPin className="w-8 h-8 text-orange-500" />
             Zones d'Intervention
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -69,11 +69,11 @@ export default function InterventionZones() {
           {zones.map((zone, index) => (
             <div
               key={index}
-              className="group p-5 rounded-lg border border-gray-200 dark:border-slate-800 hover:border-green-500 dark:hover:border-green-400 hover:shadow-md transition bg-white dark:bg-slate-900"
+              className="group p-5 rounded-lg border border-gray-200 dark:border-slate-800 hover:border-orange-500 dark:hover:border-orange-400 hover:shadow-md transition bg-white dark:bg-slate-900"
             >
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 pt-1">
-                  <Zap className="w-5 h-5 text-green-500 group-hover:text-green-600" />
+                  <Zap className="w-5 h-5 text-orange-500 group-hover:text-orange-600" />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 dark:text-white mb-1">
