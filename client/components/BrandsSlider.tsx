@@ -132,7 +132,7 @@ export default function BrandsSlider() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(-50% - 16px));
+            transform: translateX(calc(50% - 16px));
           }
         }
         
