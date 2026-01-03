@@ -96,7 +96,7 @@ export default function InterventionZones() {
 
           <div className="space-y-4 text-gray-700 dark:text-gray-300">
             <p>
-              <strong>Allo Mustapha</strong> couvre l'ensemble des zones
+              <strong>Allo Electro Services</strong> couvre l'ensemble des zones
               d'intervention suivantes à Rabat et environs : <strong>Rabat</strong>,{" "}
               <strong>Temara</strong>, <strong>Agdal</strong>,{" "}
               <strong>Hay Riad</strong>, <strong>Yacoub El Mansour</strong>,{" "}
