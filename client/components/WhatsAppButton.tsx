@@ -57,7 +57,7 @@ Problème: ${description}`;
       {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-8 right-8 z-40 w-16 h-16 bg-green-500 hover:bg-green-600 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition transform hover:scale-110 md:bottom-6 md:right-6"
+        className="fixed bottom-8 right-8 z-40 w-16 h-16 bg-orange-500 hover:bg-orange-600 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition transform hover:scale-110 md:bottom-6 md:right-6"
         aria-label="Open WhatsApp chat"
       >
         {isOpen ? (
@@ -71,9 +71,9 @@ Problème: ${description}`;
       {isOpen && (
         <div className="fixed bottom-24 right-8 z-40 w-80 bg-white dark:bg-slate-900 rounded-lg shadow-2xl overflow-hidden md:bottom-24 md:right-6 animate-fade-in">
           {/* Header */}
-          <div className="bg-gradient-to-r from-green-500 to-green-600 text-white p-4">
-            <h3 className="font-bold text-lg">Allo Mustapha</h3>
-            <p className="text-sm text-green-100">
+          <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-4">
+            <h3 className="font-bold text-lg">Allo Electro Service</h3>
+            <p className="text-sm text-orange-100">
               Disponible 7j/7 • Réponse rapide
             </p>
           </div>
@@ -90,7 +90,7 @@ Problème: ${description}`;
                     <button
                       key={machine}
                       onClick={() => handleMachineSelect(machine)}
-                      className="w-full text-left px-4 py-3 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-green-50 dark:hover:bg-green-900/20 hover:border-green-500 dark:hover:border-green-400 transition text-gray-700 dark:text-gray-300 font-medium"
+                      className="w-full text-left px-4 py-3 rounded-lg border border-gray-200 dark:border-slate-700 hover:bg-orange-50 dark:hover:bg-orange-900/20 hover:border-green-500 dark:hover:border-green-400 transition text-gray-700 dark:text-gray-300 font-medium"
                     >
                       {machine}
                     </button>
@@ -105,7 +105,7 @@ Problème: ${description}`;
                   <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
                     Appareil sélectionné :
                   </p>
-                  <p className="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-lg font-medium">
+                  <p className="px-4 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-lg font-medium">
                     {selectedMachine}
                   </p>
                 </div>
@@ -132,7 +132,7 @@ Problème: ${description}`;
                   </button>
                   <button
                     onClick={handleSendMessage}
-                    className="flex-1 px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition font-medium flex items-center justify-center gap-2"
+                    className="flex-1 px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-lg transition font-medium flex items-center justify-center gap-2"
                   >
                     <Send className="w-4 h-4" />
                     Envoyer
