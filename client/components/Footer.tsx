@@ -51,7 +51,7 @@ export default function Footer() {
               en réparation d'électroménagers français et internationaux.
             </p>
             <div className="flex gap-3">
-              <Shield className="w-5 h-5 text-green-400" />
+              <Shield className="w-5 h-5 text-orange-400" />
               <span className="text-sm text-gray-300">Garantie sur réparation</span>
             </div>
           </div>
