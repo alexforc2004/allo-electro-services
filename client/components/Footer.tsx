@@ -5,6 +5,9 @@ import {
   Clock,
   Wrench,
   Shield,
+  Youtube,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 
 export default function Footer() {
@@ -50,12 +53,11 @@ export default function Footer() {
               Technicien réparateur expérimenté avec plus de 20 ans d'expertise
               en réparation d'électroménagers français et internationaux.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-3 mb-4">
               <Shield className="w-5 h-5 text-orange-400" />
               <span className="text-sm text-gray-300">Garantie sur réparation</span>
             </div>
-          </div>
-            <div className="flex gap-3">
+            <div className="flex flex-col gap-3">
               <a
                 href="https://youtube.com/@jdidjbd?si=qrfLs_ZtMKMKtx4F"
                 target="_blank"
@@ -66,8 +68,29 @@ export default function Footer() {
                 <Youtube className="w-5 h-5" />
                 <span className="text-sm">Suivez-nous sur YouTube</span>
               </a>
+              <a
+                href="https://www.facebook.com/share/1Bpj1EPLMh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-500 hover:text-blue-400 transition"
+                aria-label="Facebook Page"
+              >
+                <Facebook className="w-5 h-5" />
+                <span className="text-sm">Suivez-nous sur Facebook</span>
+              </a>
+              <a
+                href="https://www.instagram.com/reparationelectro?utm_source=qr&igsh=aHhybjVyZGRldnFi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-pink-500 hover:text-pink-400 transition"
+                aria-label="Instagram Profile"
+              >
+                <Instagram className="w-5 h-5" />
+                <span className="text-sm">Suivez-nous sur Instagram</span>
+              </a>
             </div>
           </div>
+
           {/* Contact Information */}
           <div>
             <h4 className="font-bold text-white mb-4 flex items-center gap-2">
