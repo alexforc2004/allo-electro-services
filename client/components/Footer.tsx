@@ -19,6 +19,12 @@ export default function Footer() {
     "Agdal",
     "Hay Riad",
     "Yacoub El Mansour",
+    "Ain Ouda",
+    "Sale",
+    "Harhoura"
+    "bouznika"
+    "skhirat"
+    "Menzah"
   ];
 
   const brands = [
@@ -103,7 +109,7 @@ export default function Footer() {
                   Téléphone
                 </p>
                 <p className="text-sm text-white font-medium">
-                  +212 660-207390
+                  +212660207390
                 </p>
               </div>
               <div>
@@ -111,7 +117,7 @@ export default function Footer() {
                   WhatsApp
                 </p>
                 <p className="text-sm text-white font-medium">
-                  +212 660-207390
+                  +212660207390
                 </p>
               </div>
               <div className="mt-4">
