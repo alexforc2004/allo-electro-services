@@ -59,31 +59,31 @@ export default function Header() {
           <nav className="hidden md:flex gap-8 items-center">
             <a
               href="#services"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-green-400 transition font-medium text-sm"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-orange-400 transition font-medium text-sm"
             >
               Services
             </a>
             <a
               href="#marques"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-green-400 transition font-medium text-sm"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-orange-400 transition font-medium text-sm"
             >
               Marques
             </a>
             <a
               href="#zones"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-green-400 transition font-medium text-sm"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-orange-400 transition font-medium text-sm"
             >
               Zones
             </a>
             <a
               href="#testimonials"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-green-400 transition font-medium text-sm"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-orange-400 transition font-medium text-sm"
             >
               Avis
             </a>
             <a
               href="#contact"
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-green-400 transition font-medium text-sm"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-orange-400 transition font-medium text-sm"
             >
               Contact
             </a>
