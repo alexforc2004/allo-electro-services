@@ -132,12 +132,12 @@ export default function BrandsSlider() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(50% - 16px));
+            transform: translateX(calc(-50% - 16px));
           }
         }
         
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 10s linear infinite;
         }
       `}</style>
     </section>
