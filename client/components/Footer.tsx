@@ -5,7 +5,6 @@ import {
   Clock,
   Wrench,
   Shield,
-  Youtube
 } from "lucide-react";
 
 export default function Footer() {
